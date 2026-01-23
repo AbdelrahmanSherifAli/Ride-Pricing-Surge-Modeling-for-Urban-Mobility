@@ -62,7 +62,7 @@ Data leakage prevention:
 Imbalance handling:
 - Uses strategies like `scale_pos_weight` and decision threshold tuning (implemented in the notebook/app) to improve results for the minority class.
 
-## 6) Feature engineering (high level)
+## 6) Feature engineering
 The project builds features that reflect pricing behavior and demand patterns:
 - **Time-based features**: hour, day of week, weekend flag, rush hour flag
 - **Weather features**: aggregated to hourly level to match ride timestamps
